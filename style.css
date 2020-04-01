@@ -1,0 +1,65 @@
+header {
+background: linear-gradient(rgba(161, 163, 189, 0.445), rgba(169, 185, 209, 0.562));
+display: flex;
+width: 100%;
+height: 110px;
+border-radius: 20px;
+}
+footer {
+    background: linear-gradient(rgb(126, 166, 241), rgb(58, 86, 122));
+    position: relative;
+    display: inline-flex;
+	left: 0;
+	bottom: 0;
+    width: 100%;
+    height: 80px;
+	}
+.navighead li{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 4px;
+
+}
+body {background-image: url(../meinkampf/img/_135108-7.jpg);}
+.buttonhead {
+    display: flex;
+    color: cornsilk;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: rgb(110, 42, 219) #000 rgb(69, 71, 218);
+    border-radius: 6px;
+    background: linear-gradient(rgba(49, 15, 243, 0.507), rgba(32, 22, 175, 0.548)) rgba(227, 138, 22, 0);
+    transition: 0.2s;
+    text-align: center;
+}
+.col1-2 {width: 50%;
+    height: 100px;
+    float: left;
+background-color: linen;}
+
+.col1-3 {width: 33.33333333%;
+    float: left;
+background-color: grey;
+}
+.col2-3 {width: 66.66666667%;
+    float: left;
+    background-color: grey;
+} 
+.col1-4 {width: 25%;
+    float: left;
+background-color: linen;
+}
+.col2-4 {width: 50%;
+    height: 100px;
+    float: left;
+    background-color: linen;
+}
+.plast { margin-bottom: 150px;}
+.pen {
+margin: auto;
+}
+.imagt {border-radius: 20px;
+}
